@@ -1,0 +1,12 @@
+CheckList Tabelas Relacionadas no Entity
+
+Para cada modelo relacionado
+1. Modelo que tem a cardinalidade 1 vai ter uma propriedade que a lista de objetos da tabela destino (N)
+2. Modelo que é N tem o atributo do tipo a classe que é chave primaria 
+3. Modelo que é N tem seu proprio campo de codigo fk relacionado, iqual ao banco de dados.
+4. Na classe context mapeamento da chave primaria com estrangeira
+5. Interface Repository
+6. Classe Repository
+
+
+https://learn.microsoft.com/en-us/ef/core/modeling/relationships
